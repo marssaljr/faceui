@@ -1,25 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
+/* eslint-disable require-jsdoc */
+import React, {useState, useEffect} from 'react';
+import axios from 'axios';
+export default function App() {
+  const [data, setData]=useState(null);
+  const [loading, setLoading]=useState(true);
+  const [error, setError]=useState(null);
+  useEffect(()=>{
+    axios('https://randomuser.me/api')
+        .then((response)=>{
+          setData(response.data);
+        })
+        .catch((error)=>{
+          console.error('Error fetching data: ', error);
+          setError(error);
+        })
+        .finally(()=>{
+          setLoading(false);
+        });
+  }, []);
+  if (loading) {
+    return 'Loading...';
+  }
+  if (error) {
+    return 'Error!' + error;
+  }
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <h1>ladrão de galinha</h1>
+      <img src={data.results[0].picture.medium} alt="random user"/>
+      <pre>{JSON.stringify(data, null, 2)}</pre>
+    </>
   );
 }
-
-export default App;
