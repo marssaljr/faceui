@@ -1,6 +1,6 @@
 <h1 align="center"> 
   <br>  
-  # A simple profile page study using ReactJs
+  A simple profile page study using ReactJs
   </br>
 </h1>  
  
@@ -30,8 +30,9 @@
   <a href="#memo-license">License</a>
 </p>
 
+<p align="center">
 ![App Screenshot](https://imgur.com/fsnWhc2.png) 
-  
+</p>
   
 ## 🧪 Technologies
 
@@ -54,7 +55,7 @@ $ npm start
  
 ## :memo: License
 
-This project is under the MIT license. See the [LICENSE](https://github.com/marssaljr/c3po/blob/main/LICENSE) for more information.
+This project is under the Unlicense. See the [LICENSE](https://github.com/marssaljr/userinterface/blob/main/LICENSE) for more information.
 
 ---
 
