@@ -29,10 +29,10 @@
   <a href="#rocket-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#memo-license">License</a>
 </p>
-
-<p align="center">
-![App Screenshot](https://imgur.com/fsnWhc2.png) 
-</p>
+ 
+<p align="center"> 
+  <img alt="AppScreenshoot" src="https://imgur.com/fsnWhc2.png"> 
+</p> 
   
 ## 🧪 Technologies
 
