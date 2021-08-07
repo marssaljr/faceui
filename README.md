@@ -31,7 +31,7 @@
 </p>
  
 <p align="center"> 
-  <img alt="AppScreenshoot" src="https://imgur.com/APGDpKs.png"> 
+  <img alt="AppScreenshoot" src="https://imgur.com/4pVjnGq.png"> 
 </p> 
   
 ## 🧪 Technologies
