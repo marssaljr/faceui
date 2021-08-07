@@ -43,6 +43,7 @@ svg {
     margin: 10px auto;
     width: 300px;
     height: 400px;
+    box-shadow: 1px 1px 8px 0px rgba(46, 46, 46);
 }
 
 p {
@@ -52,6 +53,7 @@ p {
     padding: 2px;
     padding-left: 5px;
 }
+
 .head {
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
@@ -66,9 +68,10 @@ p {
 img {
     margin: 18px auto;
     width: 72px;
-    border: 1px solid;
+    border: 5px solid;
     border-radius: 50%;
     border-color: var(--clr-white);
+    box-shadow: 0px 0px 4px 1px rgba(46, 46, 46);
 }
 h1 {
     padding: 10px;
