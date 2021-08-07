@@ -1,6 +1,6 @@
 <h1 align="center"> 
   <br>  
-  A simple profile page study using ReactJs
+  A profile ui generate random people using ReactJS
   </br>
 </h1>  
  
@@ -31,7 +31,7 @@
 </p>
  
 <p align="center"> 
-  <img alt="AppScreenshoot" src="https://imgur.com/fsnWhc2.png"> 
+  <img alt="AppScreenshoot" src="https://imgur.com/APGDpKs.png"> 
 </p> 
   
 ## 🧪 Technologies
